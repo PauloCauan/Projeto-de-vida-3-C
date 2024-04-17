@@ -26,7 +26,7 @@ let tempoAtual = new Date();
 
 //contadores[0].textContent = tempoObjetivo1 - tempoAtual;
 
-contadores[0].textContent = calculaTempo(tempoObjetivo1);
+contadores[0].textContent = calculaTempo(tempos[0]);
 
 function atualizaCronometro(){
     for (let i=0; i<contadores.length;i++){
